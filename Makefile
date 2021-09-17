@@ -8,3 +8,6 @@ game.c : build
 
 build :
 	mkdir build
+
+clean :
+	rm -r build
