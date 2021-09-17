@@ -1,5 +1,6 @@
 **/*.gb
 **/*.c
 **/*.sav
+build/*
 
 cli.jar
