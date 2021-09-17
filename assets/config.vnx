@@ -1,7 +1,7 @@
 <narrative_config>
     <font>
         <text_theme>dark</text_theme>
-        <default_font>gothic</default_font>
+        <default_font>gbjam9</default_font>
         <character_set>
             ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890.!,:;?"
         </character_set>
