@@ -15,15 +15,12 @@ game.c : build
 build :
 	mkdir build
 
-lol:
-	echp $(music_c_file)
-
 build/music : build
 	mkdir build/music
 
 $(music_c_file) : build/music
 	$(MOD2GBT) $(subst build/music,music/ship/, $(subst .c,.mod,$@)) $(subst build/music/,, $(subst .c,,$@)) 1
-	cp output.c $(music_c_file)
+	cp output.c $@
 	rm output.c
 	
 clean :
