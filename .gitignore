@@ -1,6 +1,7 @@
 **/*.gb
 **/*.c
 **/*.sav
+**/.DS_Store
 build/*
 
 cli.jar
