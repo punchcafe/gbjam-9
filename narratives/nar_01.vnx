@@ -1,11 +1,12 @@
 <narrative id="nar_01">
+    <set_bg src="bkgsample"/>
     <play_music src="test"/>
     <text>Two friends walk through a very long hallway in a very large and unfamiliar house. Every time they pass a doorway, the silhouttes of strangers flit pass, laughing or maybe crying, it was hard to tell. The low, consistent thumping of a baseline interrupts their conversation.</text>
     <set_fg align="left" src="tim"/>
     <text>TIM: You lied.</text>
-    <set_fg align="right" src="tim"/>
+    <set_fg align="right" src="ziggy_normal"/>
     <text>ZIGGY: It's a white lie.</text>
     <set_fg align="left" src="tim"/>
     <text>TIM: You said this was going to be a book club.</text>
-    <set_fg align="right" src="tim"/>
+    <set_fg align="right" src="ziggy_normal"/>
 </narrative>
