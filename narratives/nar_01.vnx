@@ -1,6 +1,6 @@
 <narrative id="nar_01">
     <set_bg src="bkgsample"/>
-    <play_music src="test"/>
+    <play_music src="party_bgm_loop"/>
     <text>Two friends walk through a very long hallway in a very large and unfamiliar house. Every time they pass a doorway, the silhouttes of strangers flit pass, laughing or maybe crying, it was hard to tell. The low, consistent thumping of a baseline interrupts their conversation.</text>
     <set_fg align="left" src="tim"/>
     <text>TIM: You lied.</text>
@@ -8,5 +8,12 @@
     <text>ZIGGY: It's a white lie.</text>
     <set_fg align="left" src="tim"/>
     <text>TIM: You said this was going to be a book club.</text>
-    <set_fg align="right" src="ziggy_normal"/>
+    <set_fg align="right" src="ziggy_grin"/>
+    <text>ZIGGY: You're quick to judge, this could totally be a book club.</text>
+    <set_fg align="left" src="tim"/>
+    <text>TIM: ...No</text>
+    <set_fg align="right" src="ziggy_smile"/>
+    <text>ZIGGY: lets find RAYE.</text>
+    <set_fg align="left" src="tim"/>
+    <text>TIM: I... I think I'm going home</text>
 </narrative>
