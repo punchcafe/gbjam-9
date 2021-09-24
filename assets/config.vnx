@@ -15,5 +15,13 @@
                 <color value="3" hex="000000"/>
             </colors>
         </palette>
+        <portrait_sets>
+            <portrait_set>
+                ziggy_grin
+                ziggy_smile
+                ziggy_thinking
+                ziggy_normal
+            </portrait_set>
+        </portrait_sets>
     </image>
 </narrative_config>
