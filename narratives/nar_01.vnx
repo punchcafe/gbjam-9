@@ -1,8 +1,6 @@
 <narrative id="nar_01">
-    <set_bg src="bkg_hallway"/>
-    <set_fg align="center" src="maara"/>
-    <text>???: Hello there</text>
     <play_music src="party_bgm_loop"/>
+    <set_bg src="bkg_hallway"/>
     <text>Two friends walk through a very long hallway in a very large and unfamiliar house. Every time they pass a doorway, the silhouttes of strangers flit pass, laughing or maybe crying, it was hard to tell. The low, consistent thumping of a baseline interrupts their conversation.</text>
     <set_fg align="left" src="tim"/>
     <text>TIM: You lied.</text>
@@ -16,5 +14,59 @@
     <text>TIM: ...No</text>
     <set_fg align="right" src="ziggy_smile"/>
     <text>ZIGGY: lets find RAYE.</text>
+    <clear_text/>
+    <text>As they pass another open door, a loud shriek cuts through the music. The two friends pause to look at each other.</text>
+    <text>They move towards the door to look in, the frantic screaming continues, but with more voices joining in.</text>
+    <text>The two friends stand by the door, one on either side. The room is too dark, so dark they can barely make out the shapes. Ziggy sticks his head through the door first. Tim has his back to the wall, slightly terrified and highly alert.</text>
+    <text>ZIGGY: ... Hello? Everything okay in there?</text>
+    <clear_text/>
+    <text>Another scream echoes out from the room, and without much warning, something flies towards Ziggy and slaps him right in the face.</text>
     <set_fg align="left" src="tim"/>
+    <text>TIM: I think there's something on your face.</text>
+    <set_fg align="right" src="ziggy_thinking"/>
+    <text>ZIGGY: You don't say.</text>
+    <set_fg align="right" src="ziggy_grin"/>
+    <text>ZIGGY: Think fast!</text>
+    <set_fg align="left" src="tim"/>
+    <text>TIM: Ugh!</text>
+    <clear_text/>
+    <text>YOU'VE ACQUIRED LACY UNDIES!</text>
+    <text>Not quite sure what to do with his new item, Tim juggles the underwear like a hot potato before throwing it back into the room it originated from.</text>
+    <text>YOU'VE DROPPED LACY UNDIES!</text>
+    <set_fg align="right" src="ziggy_grin"/>
+    <text>ZIGGY: Seriously, find RAYE.</text>
+    <clear_text/>
+    <text>The two shuffle down the hallway, which opens up to a large room, presumably what must be the kitchen. Although, it had to be the nicest kitchen they'd ever seen.</text>
+    <set_bg src="bkg_kitchen"/>
+    <clear_text/>
+    <set_fg src="ziggy_thinking" align="center"/>
+    <text>Ziggy's eyes scanned the faces and bodies in the room, he squinted looking for any sign of a familiar face. Tim stands next to him, thinking hard about what to do with his hands, his eyes darting about trying to find a safe space to look at, in case he made eye contact with somebody.</text>
+    <text>???: FUCKING YASS</text>
+    <set_fg src="raye" align="center"/>
+    <text>???: Ziggy, you made it! And you brought your roommate.</text>
+    <set_fg src="ziggy_smile" align="right"/>
+    <text>ZIGGY: Raye, you told me the party started at 8:00PM, how did it get so ratchet in an hour?</text>
+    <set_fg src="raye" align="center"/>
+    <text>RAYE: There was a typo on the event page, so people started showing up in the morning.</text>
+    <set_fg src="tim" align="left"/>
+    <text>TIM: You mean some of these people have been doing this for 12 hours?</text>
+    <set_fg src="raye" align="center"/>
+    <text>RAYE: Come on, there’s a lot of catching up to do.</text>
+    <set_fg src="tim" align="left"/>
+    <text>TIM:  Actually, I- I was about to le...</text>
+    <text>Raye begins to lead the two boys to the kitchen island, She was a lot taller, and somehow a lot stronger, so Tim was left with little choice but to follow along and look up at her with fear in his eyes.</text>
+    <text>The kitchen island is littered with bottles and cans, buckets filled with melted ice and more alcohol, empty party cups and spilt liquid. Raye scavenges for some beers, popping the caps with her teeth and handing them to Tim and Ziggy.</text>
+    <set_fg src="ziggy_grin" align="right"/>
+    <text>Look, you should at least stay for one drink, then you can do whatever the fuck you want.</text>
+    <set_fg src="tim" align="left"/>
+    <text>TIM:  Fine.</text>
+    <set_fg src="raye" align="center"/>
+    <text>RAYE: Chin-chin motherfuckers!</text>
+    <text>The three clink their bottles, Raye immediately downs the whole beer in one breath. </text>
+    <text>Tim is equally stunned and impressed, trying to understand the logic of how it was physically possible to make all that effervescent liquid disappear with little to no effort. Ziggy pulls his beer away after a couple of gulps and sighs deeply from the sheer enjoyment of the cold beverage.</text>
+    <set_fg src="raye" align="center"/>
+    <text>RAYE: Let's go find the rest.</text>
+    <set_fg src="tim" align="center"/>
+    <text>She drags Ziggy away, her Jimmy Choos clickity-clacking on the marble floor as they leave the kitchen, disappearing into the hallway. Tim stands by the kitchen island, calculating how much time would elapse if he drank two sips every minute with a little less than 330ml in the bottle.</text>
+    <text>TIM: Okay, let's just finish this drink, and pack up and go.</text>
 </narrative>
