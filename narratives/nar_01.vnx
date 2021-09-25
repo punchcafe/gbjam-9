@@ -1,5 +1,7 @@
 <narrative id="nar_01">
     <set_bg src="bkgsample"/>
+    <set_fg align="center" src="maara"/>
+    <text>???: Hello there</text>
     <play_music src="party_bgm_loop"/>
     <text>Two friends walk through a very long hallway in a very large and unfamiliar house. Every time they pass a doorway, the silhouttes of strangers flit pass, laughing or maybe crying, it was hard to tell. The low, consistent thumping of a baseline interrupts their conversation.</text>
     <set_fg align="left" src="tim"/>
