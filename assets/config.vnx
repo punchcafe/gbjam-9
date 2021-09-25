@@ -3,7 +3,7 @@
         <text_theme>dark</text_theme>
         <default_font>gbjam9</default_font>
         <character_set>
-            ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890.!,:;?"
+            ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890.!,:;?"'
         </character_set>
     </font>
     <image>
