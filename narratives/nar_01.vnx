@@ -1,5 +1,5 @@
 <narrative id="nar_01">
-    <set_bg src="bkgsample"/>
+    <set_bg src="bkg_hallway"/>
     <set_fg align="center" src="maara"/>
     <text>???: Hello there</text>
     <play_music src="party_bgm_loop"/>
@@ -17,5 +17,4 @@
     <set_fg align="right" src="ziggy_smile"/>
     <text>ZIGGY: lets find RAYE.</text>
     <set_fg align="left" src="tim"/>
-    <text>TIM: I... I think I'm going home</text>
 </narrative>
