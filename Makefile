@@ -1,7 +1,7 @@
-GBVNGINEJAR := # YOUR GBVNGINE PATH
-LCC := # YOUR LCC PATH
-MOD2GBT := # YOUR MOD2BG PATH
-GBT_SOURCE_FILES := #YOUR GBT SOURCE FILES PATH
+GBVNGINEJAR := ${GBVNG_JAR}
+LCC := ${LCC_BIN}
+MOD2GBT := ${MOD2GBT_BIN}
+GBT_SOURCE_FILES := ${GBT_SOURCE_FILES}
 
 music_mod_files = $(wildcard music/ship/*.mod)
 music_c_file = $(subst music/ship/,build/music/, $(subst .mod,.c,$(wildcard music/ship/*.mod)))
@@ -27,4 +27,4 @@ clean :
 	rm -r build
 
 compile : 
-	$(LCC) build/game.c $(GBT_SOURCE_FILES) -o build/game.gb
+	$(LCC) build/game.c $(GBT_SOURCE_FILES) assets.c $(music_c_file) -o build/game.gb
