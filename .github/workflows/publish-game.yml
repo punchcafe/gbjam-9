@@ -1,13 +1,17 @@
 name: Publish-Game
 
-on: [push]
+on:
+  push:
+    branches:
+      - master
 
 jobs:
-  node-docker:
+  publish:
     runs-on: ubuntu-latest
-    container:
-      image: punchcafe:build-gbnvg:0.0.1
     env:
-      GITHUB_PAT: ${secrets.RELEASE_KEY}
-      REPO: ${repo.url}
-      RELEASE_NAME: ${payload.push_id}
+      GITHUB_PAT: ${{secrets.RELEASE_KEY}}
+      REPO: ${{github.event.repository.url}}
+      RELEASE_NAME: ${{github.event.repository.pushed_at}}
+    steps:
+      - name: Publish Release
+        uses: docker://punchcafe/build-gbnvg:0.0.2
