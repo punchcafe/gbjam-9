@@ -1,0 +1,5 @@
+export GBVNG_JAR="~/your/path/cli.jar"
+export LCC_BIN="/your_path/gbdk/bin/lcc"
+export MOD2GBT_BIN="/Users/punchcafe/GaiDen/gbt-player/legacy_gbdk/mod2gbt/mod2gbt"
+export GBT_SOURCE_FILES="/Users/punchcafe/GaiDen/gbt-player/legacy_gbdk/gbdk_example/gbt_player_bank1.s /Users/punchcafe/GaiDen/gbt-player/legacy_gbdk/gbdk_example/gbt_player.s"
+set -a
