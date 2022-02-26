@@ -19,7 +19,7 @@ build/music : build
 	mkdir build/music
 
 $(music_c_file) : build/music
-	$(MOD2GBT) $(subst build/music,music/ship/, $(subst .c,.mod,$@)) $(subst build/music/,, $(subst .c,,$@)) 1
+	$(MOD2GBT) $(subst build/music,music/ship, $(subst .c,.mod,$@)) $(subst build/music/,, $(subst .c,,$@)) 1
 	cp output.c $@
 	rm output.c
 	

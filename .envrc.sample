@@ -1,0 +1,5 @@
+export GBVNG_JAR="~/your/path/cli.jar"
+export LCC_BIN="/your_path/gbdk/bin/lcc"
+export MOD2GBT_BIN="/your_path/md2gbt/bin/"
+export GBT_SOURCE_FILES="/gbt_source_files"
+set -a
